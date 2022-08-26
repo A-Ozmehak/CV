@@ -1,11 +1,11 @@
 import { Header } from "../components/header";
-import {StartPageImages} from "../components/startPageImages";
+import { LandingPageImages } from "../components/landingPageImages";
 
 export const LandingPage = () => {
     return (
         <div>
         <Header />
-        <StartPageImages />
+        <LandingPageImages />
         </div>
     )
 }

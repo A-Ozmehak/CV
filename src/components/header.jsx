@@ -1,7 +1,11 @@
+import "../css/header.css"
+
+
 export const Header = () => {
     return (
-        <header>
-            <h1>Välkommen</h1>
+        <header className="landingPageHeader">
+            <h1>Välkommen till Özmehak's CV</h1>
+
         </header>
     )
 }
