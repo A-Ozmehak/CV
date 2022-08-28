@@ -15,18 +15,30 @@ export const FlagIcons = () => {
     return (
         <header className="landingPageHeader">
             <button
-                onClick={() => setShowEng(true)}
+                onClick={() => {
+                    setShowEng(true)
+                    setShowSwe(false)
+                    setShowSka(false)
+                }}
             >
                 <img className="flagImage" src={uk} alt="ukFlag"/>
             </button>
             <button
-                onClick={() => setShowSwe(true)}
+                onClick={() => {
+                    setShowSwe(true)
+                    setShowEng(false)
+                    setShowSka(false)
+                }}
 
             >
                 <img className="flagImage" src={swe} alt="sweFlag"/>
             </button>
             <button
-                onClick={() => setShowSka(true)}
+                onClick={() => {
+                    setShowSka(true)
+                    setShowSwe(false)
+                    setShowEng(false)
+                }}
 
             >
                 <img className="flagImage" src={skane} alt="skaneFlag"/>
