@@ -18,9 +18,10 @@ export const MrsOzmehak = () => {
         <div>
             <header className="landingPageHeader">
                 <Link to="/">
-                    <h1 className={"text-3xl font-bold underline"}>Anna's CV</h1>
+                    <h1 className={"text-3xl font-bold pt-2 pb-2"}>Anna's CV</h1>
                 </Link>
                 <button
+                    className={"pb-4"}
                     onClick={() => {
                         setShowSwe(true)
                         setShowEng(false)
