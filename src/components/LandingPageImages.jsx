@@ -11,7 +11,7 @@ export const LandingPageImages = () => {
     return (
         <div>
             <div>
-                <Link to={"/calleOzmehak"}>
+                <Link to="/calleOzmehak">
                 <button
                     onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)}
@@ -24,7 +24,7 @@ export const LandingPageImages = () => {
                 )}
             </div>
             <div>
-                <Link to={"/annaOzmehak"}>
+                <Link to="/annaOzmehak">
                 <button
                     onMouseEnter={() => setShowSecond(true)}
                     onMouseLeave={() => setShowSecond(false)}

@@ -1,8 +1,12 @@
 import './App.css';
-import { LandingPage } from "./pages/landingpage";
-import { Route, Routes} from "react-router-dom";
-import { MrOzmehak } from "./pages/mrOzmehak";
-import { MrsOzmehak } from "./pages/mrsOzmehak";
+import {LandingPage} from "./pages/LandingPage";
+import {Route, Routes} from "react-router-dom";
+import {MrOzmehak} from "./pages/MrOzmehak";
+import {MrsOzmehak} from "./pages/MrsOzmehak";
+import Context from "./Context";
+import {Header} from "./components/Header";
+import {Footer} from "./components/Footer";
+
 
 function App() {
   return (
