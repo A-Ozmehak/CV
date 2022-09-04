@@ -11,7 +11,7 @@ export const LandingPageImages = () => {
 
     return (
         <div>
-            <div>
+            <div className="startPageImageContainer">
                 <Link to="/calleOzmehak">
                 <button
                     onMouseEnter={() => setIsShown(true)}
@@ -24,7 +24,7 @@ export const LandingPageImages = () => {
                     <h1>Calle</h1>
                 )}
             </div>
-            <div>
+            <div className="startPageImageContainer">
                 <Link to="/annaOzmehak">
                 <button
                     onMouseEnter={() => setShowSecond(true)}

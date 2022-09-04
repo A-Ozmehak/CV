@@ -6,8 +6,8 @@ export const CalleEng = () => {
     return (
         <div className="grid grid-cols-2 gap-2.5">
             <div className="col-span-2 pt-2">
-                <img className="rounded-xl" src={calle1} alt="calle"/>
-                <p>{calleContent.contact}</p>
+                <img className="rounded-xl ml-8" src={calle1} alt="calle"/>
+                <p className="ml-8">{calleContent.contact}</p>
             </div>
             <div className="rounded-lg ml-8 p-8 bg-slate-200 dark:bg-neutral-800">
                 <h3>About me</h3>
@@ -34,6 +34,5 @@ export const CalleEng = () => {
                 <p>{calleContent.engLanguage2}</p>
             </div>
         </div>
-
     )
 }

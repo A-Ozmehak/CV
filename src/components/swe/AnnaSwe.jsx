@@ -5,7 +5,7 @@ export const AnnaSwe = () => {
     return (
         <div className="grid grid-cols-2 gap-2.5">
             <div className="col-span-2 pt-2">
-                <p>{annaContent.contact}</p>
+                <p className="ml-8">{annaContent.contact}</p>
             </div>
             <div className="rounded-lg ml-8 p-8 bg-slate-200 dark:bg-neutral-800">
                 <h3>Om Mig</h3>
