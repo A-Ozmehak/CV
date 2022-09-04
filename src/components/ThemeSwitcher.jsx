@@ -15,7 +15,7 @@ export const ThemeSwitcher = () => {
         <>
         <div>
             <DarkModeSwitch
-                className={"ml-1 mt-1"}
+                className={"ml-2 pt-2"}
                 checked={darkSide}
                 onChange={toggleDarkMode}
                 size={56}

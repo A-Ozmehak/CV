@@ -15,7 +15,7 @@ export const CalleSwe = () => {
                 </div>
                 <div className="rounded-lg mr-8 p-8 bg-slate-200 dark:bg-neutral-800 h-1/4">
                     <h3 className="font-bold mb-1">Portfolio</h3>
-                    <p>{calleContent.portfolio}</p>
+                    <a href="https://github.com/Ozmehak">{calleContent.portfolio}</a>
                 </div>
             </div>
             <div className="flex mb-5">

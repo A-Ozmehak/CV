@@ -2,6 +2,7 @@ import dog2 from "../assets/dog2.jpg"
 import calle from "../assets/calle.jpg"
 import {useState} from "react";
 import {Link} from "react-router-dom";
+import anna from "../assets/anna400.jpg"
 
 export const LandingPageImages = () => {
     const [isShown, setIsShown] = useState(false)
@@ -25,10 +26,10 @@ export const LandingPageImages = () => {
             <div
                 className="h-20 w-1/4 mt-12 bg-slate-200 dark:bg-neutral-800 self-center flex place-items-center justify-center">
                 {showSecond && (
-                    <h2>Anna</h2>
+                    <h2 className="text-3xl">Anna</h2>
                 )}
                 {isShown && (
-                    <h2>Calle</h2>
+                    <h2 className="text-3xl">Calle</h2>
                 )}
 
             </div>
@@ -38,7 +39,7 @@ export const LandingPageImages = () => {
                         onMouseEnter={() => setShowSecond(true)}
                         onMouseLeave={() => setShowSecond(false)}
                     >
-                        <img className="rounded-xl" src={calle} alt="dog2"/>
+                        <img className="rounded-xl" src={anna} alt="anna"/>
 
                     </button>
                 </Link>
