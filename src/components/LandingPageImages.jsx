@@ -1,5 +1,6 @@
 import dog4 from "../assets/dog4.jpg"
 import dog2 from "../assets/dog2.jpg"
+import calle from "../assets/calle.jpg"
 import "../css/landingpage.css"
 import {useState} from "react";
 import { Link } from "react-router-dom";
@@ -16,7 +17,7 @@ export const LandingPageImages = () => {
                     onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)}
                 >
-                    <img className="dogImage" src={dog4} alt="dog1"/>
+                    <img className="rounded-xl" src={calle} alt="calle"/>
                 </button>
                 </Link>
                 {isShown && (

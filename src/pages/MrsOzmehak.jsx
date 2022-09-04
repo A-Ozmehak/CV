@@ -15,8 +15,8 @@ export const MrsOzmehak = () => {
     const [showSka, setShowSka] = useState(false)
 
     return (
-        <div>
-            <header className="landingPageHeader">
+        <div className="contentPage">
+            <div className="landingPageHeader">
                 <Link to="/">
                     <h1 className={"text-3xl font-bold pt-2 pb-2"}>Anna's CV</h1>
                 </Link>
@@ -48,7 +48,7 @@ export const MrsOzmehak = () => {
                 >
                     <img className="flagImage" src={skane} alt="skaneFlag"/>
                 </button>
-            </header>
+            </div>
 
             <div>
                 {showSwe && (

@@ -6,3 +6,9 @@
 .startPageContainer {
     height: 100vh;
 }
+
+@media screen and (max-width: 500px) {
+    .dogImage {
+        width: 300px;
+    }
+}

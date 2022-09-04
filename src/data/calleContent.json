@@ -1,0 +1,21 @@
+{
+  "contact": "ozmehak.calle@gmail.com",
+  "sweAbout" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. Ut dictum, urna vel auctor feugiat, lacus ante gravida eros, non commodo purus arcu nec orci. Cras vitae massa leo. Duis vulputate nunc eget libero ornare, in ultricies magna feugiat. Etiam porta turpis ut ante malesuada, in imperdiet ex eleifend. Pellentesque non eros nec felis tincidunt consectetur. Nullam scelerisque suscipit dolor, ultricies ornare mi cursus sit amet. Curabitur non dictum ligula, tempor lobortis est. Integer id neque eu erat ornare auctor. In interdum, ipsum at vestibulum ornare, ex augue pellentesque enim, sed hendrerit tortor leo et neque. Integer varius convallis ante, ut mattis nulla pharetra nec. ",
+  "engAbout" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. Ut dictum, urna vel auctor feugiat, lacus ante gravida eros, non commodo purus arcu nec orci. Cras vitae massa leo. Duis vulputate nunc eget libero ornare, in ultricies magna feugiat. Etiam porta turpis ut ante malesuada, in imperdiet ex eleifend. Pellentesque non eros nec felis tincidunt consectetur. Nullam scelerisque suscipit dolor, ultricies ornare mi cursus sit amet. Curabitur non dictum ligula, tempor lobortis est. Integer id neque eu erat ornare auctor. In interdum, ipsum at vestibulum ornare, ex augue pellentesque enim, sed hendrerit tortor leo et neque. Integer varius convallis ante, ut mattis nulla pharetra nec. ",
+  "skaAbout" : "haj din lille, di i jao som e calle",
+  "portfolio": "https://github.com/Ozmehak",
+  "sweEducation1": "Front End Developer, ITHögskolan Göteborg, 2021 - 2023",
+  "engEducation1": "Front End Developer, It Hogskolan Gothenburg, 2021 - 2023",
+  "sweEducation2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "engEducation2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "sweJobExperience1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "engJobExperience1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "sweJobExperience2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "engJobExperience2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "engJobExperience3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "sweJobExperience3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere odio, et ullamcorper lacus. ",
+  "sweLanguage1": "Svenska - modersmål",
+  "sweLanguage2": "Engelska - flytande",
+  "engLanguage1": "Swedish - Mother tongue",
+  "engLanguage2": "English - Fluent"
+}

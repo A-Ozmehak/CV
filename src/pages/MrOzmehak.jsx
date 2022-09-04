@@ -15,12 +15,13 @@ export const MrOzmehak = () => {
     const [showSka, setShowSka] = useState(false)
 
     return (
-        <div>
-            <header className="landingPageHeader">
+        <div className="contentPage">
+            <div className="landingPageHeader">
                 <Link to="/">
-                    <h1>Calle's CV</h1>
+                    <h1 className={"text-3xl font-bold pt-2 pb-2"}>Calle's CV</h1>
                 </Link>
                 <button
+                    className={"pb-4"}
                     onClick={() => {
                         setShowSwe(true)
                         setShowEng(false)
@@ -47,7 +48,7 @@ export const MrOzmehak = () => {
                 >
                     <img className="flagImage" src={skane} alt="skaneFlag"/>
                 </button>
-            </header>
+            </div>
 
             <div>
                 {showSwe && (
