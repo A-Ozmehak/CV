@@ -1,7 +1,5 @@
-import "../css/header.css"
-import uk from "../assets/uk.png"
-import swe from "../assets/swe.png"
-import skane from "../assets/skane.png"
+import uk from "../assets/eng-flag.png"
+import swe from "../assets/swe-flag.png"
 import {useState} from "react";
 import {AnnaSwe} from "../components/swe/AnnaSwe";
 import {AnnaEng} from "../components/eng/AnnaEng";
@@ -15,8 +13,8 @@ export const MrsOzmehak = () => {
     const [showSka, setShowSka] = useState(false)
 
     return (
-        <div className="contentPage">
-            <div className="landingPageHeader">
+        <div className="h-screen">
+            <div className="text-center">
                 <Link to="/">
                     <h1 className={"text-3xl font-bold pt-2 pb-2"}>Anna's CV</h1>
                 </Link>
@@ -39,15 +37,15 @@ export const MrsOzmehak = () => {
                 >
                     <img className="flagImage" src={uk} alt="ukFlag"/>
                 </button>
-                <button
-                    onClick={() => {
-                        setShowSka(true)
-                        setShowSwe(false)
-                        setShowEng(false)
-                    }}
-                >
-                    <img className="flagImage" src={skane} alt="skaneFlag"/>
-                </button>
+                {/*<button*/}
+                {/*    onClick={() => {*/}
+                {/*        setShowSka(true)*/}
+                {/*        setShowSwe(false)*/}
+                {/*        setShowEng(false)*/}
+                {/*    }}*/}
+                {/*>*/}
+                {/*    <img className="flagImage" src={skane} alt="skaneFlag"/>*/}
+                {/*</button>*/}
             </div>
 
             <div>
