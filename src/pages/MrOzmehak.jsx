@@ -3,29 +3,29 @@ import swe from "../assets/swe-flag.png"
 import {useState} from "react";
 import {CalleSwe} from "../components/swe/CalleSwe";
 import {CalleEng} from "../components/eng/CalleEng";
-import useLS from "../hooks/UseLS";
+// import useLS from "../hooks/UseLS";
 
 
 export const MrOzmehak = () => {
     const [showSwe, setShowSwe] = useState(true)
     const [showEng, setShowEng] = useState(false)
 
-    const [saveLanguage, setSaveLanguage] = useLS()
+    // const [saveLanguage, setSaveLanguage] = useLS()
 
     const handleSwedish = () => {
         setShowSwe(true)
         setShowEng(false)
-        setSaveLanguage(true)
+        // setSaveLanguage(true)
     }
 
     const handleEnglish = () => {
         setShowEng(true)
         setShowSwe(false)
-        setSaveLanguage(true)
+        // setSaveLanguage(true)
     }
 
     return (
-        <div className="h-screen max-w-screen-xl">
+        <div className="">
             <div className="text-center">
                     <h1 className={"text-3xl font-bold pt-2 pb-2"}>Calle's CV</h1>
                 <button

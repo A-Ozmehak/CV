@@ -10,7 +10,7 @@ export const MrsOzmehak = () => {
     const [showEng, setShowEng] = useState(false)
 
     return (
-        <div className="h-screen max-w-screen-xl">
+        <div className="">
             <div className="text-center">
                     <h1 className={"text-3xl font-bold pt-2 pb-2"}>Anna's CV</h1>
                 <button
