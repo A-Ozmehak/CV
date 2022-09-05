@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://a-ozmehak.github.io/CV-build",
+  "homepage": "/CV",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
