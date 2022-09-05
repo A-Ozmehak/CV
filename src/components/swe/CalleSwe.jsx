@@ -3,8 +3,8 @@ import calle1 from "../../assets/calle1.jpg";
 
 export const CalleSwe = () => {
     return (
-        <div className="grid grid-cols-2 gap-2.5">
-            <div className="col-span-2 pt-2">
+        <div>
+            <div className="pt-2 mb-3">
                 <img className="rounded-xl ml-8" src={calle1} alt="calle"/>
                 <p className="ml-8">{calleContent.contact}</p>
             </div>

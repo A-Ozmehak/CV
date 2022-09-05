@@ -9,21 +9,19 @@ export const LandingPageImages = () => {
 
     return (
         <div className="flex justify-center">
-            <div className="mt-12 bg-slate-200 dark:bg-neutral-800">
+            <div className="mt-32 bg-slate-200 dark:bg-neutral-800">
                 <Link to="/calleOzmehak">
-                <button
-                    onMouseEnter={() => setIsShown(true)}
-                    onMouseLeave={() => setIsShown(false)}
-                >
-                    <img className="rounded-xl" src={calle} alt="calle"/>
-                </button>
+                    <button
+                        onMouseEnter={() => setIsShown(true)}
+                        onMouseLeave={() => setIsShown(false)}
+                    >
+                        <img className="rounded-xl" src={calle} alt="calle"/>
+                    </button>
                 </Link>
-                {isShown && (
-                    <h1>Calle</h1>
-                )}
+
             </div>
             <div
-                className="h-20 w-1/4 mt-12 bg-slate-200 dark:bg-neutral-800 self-center flex place-items-center justify-center">
+                className="h-20 w-1/4 mt-32 bg-slate-200 dark:bg-neutral-800 self-center flex place-items-center justify-center">
                 {showSecond && (
                     <h2 className="text-3xl">Anna</h2>
                 )}
@@ -32,7 +30,7 @@ export const LandingPageImages = () => {
                 )}
 
             </div>
-            <div className="mt-12 bg-slate-200 dark:bg-neutral-800">
+            <div className="mt-32 bg-slate-200 dark:bg-neutral-800">
                 <Link to="/annaOzmehak">
                     <button
                         onMouseEnter={() => setShowSecond(true)}
@@ -42,9 +40,7 @@ export const LandingPageImages = () => {
 
                     </button>
                 </Link>
-                {showSecond && (
-                    <h1>Anna</h1>
-                )}
+
             </div>
         </div>
     )
