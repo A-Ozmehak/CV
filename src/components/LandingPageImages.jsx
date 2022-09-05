@@ -1,4 +1,3 @@
-import dog2 from "../assets/dog2.jpg"
 import calle from "../assets/calle.jpg"
 import {useState} from "react";
 import {Link} from "react-router-dom";

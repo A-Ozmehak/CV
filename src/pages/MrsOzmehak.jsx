@@ -3,7 +3,6 @@ import swe from "../assets/swe-flag.png"
 import {useState} from "react";
 import {AnnaSwe} from "../components/swe/AnnaSwe";
 import {AnnaEng} from "../components/eng/AnnaEng";
-import {Link} from "react-router-dom"
 
 
 export const MrsOzmehak = () => {

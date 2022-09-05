@@ -3,14 +3,12 @@ import swe from "../assets/swe-flag.png"
 import {useState} from "react";
 import {CalleSwe} from "../components/swe/CalleSwe";
 import {CalleEng} from "../components/eng/CalleEng";
-import {Link} from "react-router-dom"
 import useLS from "../hooks/UseLS";
 
 
 export const MrOzmehak = () => {
     const [showSwe, setShowSwe] = useState(true)
     const [showEng, setShowEng] = useState(false)
-    const [showSka, setShowSka] = useState(false)
 
     const [saveLanguage, setSaveLanguage] = useLS()
 
